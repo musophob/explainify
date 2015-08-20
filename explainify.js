@@ -13,7 +13,7 @@
         // format explain shell url
         function explainUrl(cmd) {
           var explainBase = 'http://explainshell.com/explain?cmd=';
-          var explainCommand = cmd.split(" ").join("+");
+          var explainCommand = encodeURIComponent(cmd);
           return explainBase + explainCommand;
         }
 
