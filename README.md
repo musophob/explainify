@@ -53,3 +53,6 @@ After explainify (with default options):
 2. Make sure the selector being passed to `explainify()` is a direct parent of the shell command text, with no other elements in between.
 
 
+## Demo
+
+If you're still not convinced, check out [`demo/index.html`](demo/index.html).

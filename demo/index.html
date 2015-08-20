@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Explain Shell</title>
+</head>
+<body>
+  <code class="explain_me">mkdir tmp && cd</code><br>
+  <code class="explain_me">ls -alh</code><br>
+  <code class="explain_me">top</code><br>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="../explainify.js"></script>
+  <script type="text/javascript">
+
+    $(document).ready( function() {
+
+      // call explainify parent elements of the shell command text node
+      $('.explain_me').explainify({
+        // options w/ default value shown
+        linkClass: 'explanation_link', // choose a class for the generated links
+        newWindow: true, // open explainshell.com in new window/tab
+        linkTitle: true, // include title attribute on generated link
+        linkTitleText: "See What This Command Does At ExplainShell.com" // customise the link title text
+      });
+
+    });
+  </script>
+</body>
+</html>
