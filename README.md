@@ -55,4 +55,4 @@ After explainify (with default options):
 
 ## Demo
 
-If you're still not convinced, check out [`demo/index.html`](demo/index.html).
+If you're still not convinced, clone the project and open up [`demo/index.html`](demo/index.html).
